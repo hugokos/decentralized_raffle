@@ -20,10 +20,10 @@ This is open-source smart contract based platform that provides a raffle engine 
 ### User Experience
 Users can interact with the smart contract using the streamlit web application. 
 **Welcome Screen: Enter the Raffle**
-!['Remix'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Deploy_and_compile_on_remix.png)
+!['Welcome'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Streamlit_Screenshot.png)
 
 **Sucessful Entry Screen**
-!['Remix'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Deploy_and_compile_on_remix.png)
+!['Success'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Streamlit_Success_Screen.png)
 
 ### Back End:
 Launch solidity code in Remix IDE to deploy and run transactions on the blockchain
