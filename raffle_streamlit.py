@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 import hashlib
 
+#Added the following imports-- TT
+import web3
+from web3 import Web3
+
 
 #Price per ticket in Pwei
 price_per_ticket = 1
@@ -19,9 +23,13 @@ st.markdown("## Purchase a ticket using ethereum and win big!")
 
 #Displaying the current time and next drawing
 st.sidebar.text(current_date)
-st.sidebar.text(f"Next drawing: {drawing_date}")
 
-st.sidebar.markdown("## Tickets are available at 1 Pwei")
+#Sidebar to display number of Entries
+st.sidebar.text(f"Next Drawing: {drawing_date}")
+
+#st.sidebar.text(f"Next Drawing: {drawing_date}")
+
+st.sidebar.markdown("## Tickets are available at 1 ETH each")
 
 #Creating a streamlit data input  for sender
 address = st.sidebar.text_input("Ethereum Address")
