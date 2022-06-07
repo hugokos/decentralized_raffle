@@ -94,7 +94,7 @@ contract Raffle {
 
 ## Contributors
 
-Hugo Kostelni, Nima Harichian, Nick Danialy, Tim Tennyson
+Hugo Kostelni, Nima Harirchian, Nick Danialy, Tim Tennyson
 
 ---
 
