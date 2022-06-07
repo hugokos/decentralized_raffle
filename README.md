@@ -3,10 +3,10 @@ Our decentralized raffle smart contract provides a transparent, on-chain tool fo
 ---
 ## Key Functionality:
 This is open-source smart contract based platform that provides a raffle engine and user interface that can be used to hold trustless, permissionless contests with verifiable results. Key functionality includes:
-	-Entries are escrowed by the smart contract, no need for a 3rd party to hold funds
-	-Payouts are issued immediately upon the conclusion of the contest
-	-Results are verifiable on the blockchain
-	-Entrants can maintain anonymity (only the wallet address is utilized)
+- Entries are escrowed by the smart contract, no need for a 3rd party to hold funds
+- Payouts are issued immediately upon the conclusion of the contest
+- Results are verifiable on the blockchain
+- Entrants can maintain anonymity (only the wallet address is utilized)
 ---
 
 ## Technologies/Imports
@@ -17,21 +17,21 @@ This is open-source smart contract based platform that provides a raffle engine 
 - Python web3
 ---
 ## Installation Guide 
-# Complete the following steps:
+### Complete the following steps:
 Launch solidity code in Remix IDE to deploy and run transactions on the blockchain
 
 
 **Deploy and Compile Code on Remix:**
-!['Remix'](https://github.com/hugokos/solidity_savings_account_contract/blob/master/Execution_Results/setAccounts_function.png)
+!['Remix'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Deploy_and_compile_on_remix.png)
 
 **Use Metamask to Connect Remix to Ganache:**
-!['Metamask'](https://github.com/hugokos/solidity_savings_account_contract/blob/master/Execution_Results/deposit_function.png)
+!['Metamask'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Connect_Remix_to_Metamask.png)
 
 **Leverage Ganache to test Lottery Engine:**
-!['Ganache'](https://github.com/hugokos/solidity_savings_account_contract/blob/master/Execution_Results/withdraw_function.png)
+!['Ganache'](https://github.com/hugokos/decentralized_raffle/blob/master/Screen%20Shots/Ganache%20Example.png)
 
 
-**Sample Code: Raffle Engine**
+## Sample Code: Raffle Engine
 ```
 contract Raffle {
  // House address for fees
@@ -74,8 +74,6 @@ contract Raffle {
         }
     }
 ```
-
-**Screen Shots from Ganache**
 
 
 ---
