@@ -6,8 +6,8 @@ import pandas as pd
 import hashlib
 
 #Added the following imports-- TT
-#import web3
 
+import web3
 from web3 import Web3
 
 #Connect to web3 server
@@ -16,7 +16,7 @@ from web3 import Web3
 w3=Web3(web3.HTTPProvider('http://127.0.0.1:8545'))
 
 #load accounts
-w3.eth.accounts
+#w3.eth.accounts
 
 #Local contract address from remix when deployed:
 contract_address='0x7912bd9E742a81c620FF0FcF1A9Dc6b9De543f69'
@@ -30,7 +30,7 @@ with open('contract_abi.txt') as f:
 raffle_contract=w3.eth.contract(address=contract_address, abi=contract_abi)
 
 #call the house function to get the house address
-raffle_contract.functions.house().call()
+#raffle_contract.functions.house().call()
 
 
     
