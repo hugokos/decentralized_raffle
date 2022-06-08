@@ -11,11 +11,11 @@ This is open-source smart contract based platform that provides a raffle engine 
 ---
 
 ## Technologies/Imports
-- Remix IDE - Smart Contract Engine (Solidity 0.8.0)
-- Streamlit - FrontEnd/UI
-- Ganache - Test Network
-- Hardhat Network-  allows you to print logging messages and contract variables by calling console.log() from your Solidity code. To use it, you simply import hardhat/console.sol and call it.
-- Python web3
+* [Remix IDE](https://remix-ide.readthedocs.io/en/latest/) - Smart Contract Engine (Solidity 0.8.0)
+* [Streamlit](https://docs.streamlit.io/library/get-started) - FrontEnd/UI
+* [Ganache](https://trufflesuite.com/ganache/) - Test Network
+* [Hardhat Network](https://hardhat.org/hardhat-network) - allows you to print logging messages and contract variables by calling console.log() from your Solidity code. To use it, you simply import hardhat/console.sol and call it.
+* [Web3](https://web3py.readthedocs.io/en/stable/) web3
 ---
 
 ## Front End: User Experience
@@ -100,10 +100,21 @@ Hugo Kostelni, Nima Harirchian, Nick Danialy, Tim Tennyson
 
 ## License
 
-Open Source
+Copyright (c) [2021] [Nicklaus Danialy, Hugo Kostelni, Nima Harirchian, Tim Tennyson]
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-
-
----
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
