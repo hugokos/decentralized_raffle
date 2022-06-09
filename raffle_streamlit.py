@@ -10,16 +10,16 @@ import hashlib
 import web3
 from web3 import Web3
 
-#Connect to web3 server
-# Old Ganache Server w3=Web3(web3.HTTPProvider('http://127.0.0.1:7545'))
-#New Ganache Server:
+#Connect to 
+
+# web3 server Ganache Server:
 w3=Web3(web3.HTTPProvider('http://127.0.0.1:8545'))
 
 #load accounts
 #w3.eth.accounts
 
 #Local contract address from remix when deployed:
-contract_address='0x7912bd9E742a81c620FF0FcF1A9Dc6b9De543f69'
+contract_address='0xD829f40baBb7E452c3Fd9F2ceCcfe01c6d604ADD'
 
 #import json and open contract_abi.txt (local abi, found in remix under "compile" tab when deployed)
 import json
@@ -43,7 +43,7 @@ pot = 0
 
 #Displaying the name of the site
 st.markdown("# Ethereum Raffle")
-st.markdown("## Purchase a ticket using ethereum and win big!")
+st.markdown("## Purchase a ticket using Ethereum and win big!")
 
 #Displaying the current time and next drawing
 st.sidebar.text(current_date)
